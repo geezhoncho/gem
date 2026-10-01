@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "one_hand": {
+      "armor_negation": 17.0,
+      "impact": 1.5,
+      "max_strikes": 1
+    },
+    "two_hand": {
+      "armor_negation": 17.0,
+      "impact": 1.62,
+      "max_strikes": 1
+    }
+  },
+  "type": "epicfight:sword"
+}

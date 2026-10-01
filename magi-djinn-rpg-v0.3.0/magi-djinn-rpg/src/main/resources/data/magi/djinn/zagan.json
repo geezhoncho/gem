@@ -1,0 +1,25 @@
+{
+  "element": "life",
+  "color": 5025616,
+  "max_level": 10,
+  "max_energy": 100,
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "addition",
+      "base": 4.0,
+      "per_level": 1.0
+    },
+    {
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "operation": "multiply_base",
+      "base": 0.05,
+      "per_level": 0.02
+    }
+  ],
+  "abilities": [
+    "magi:zagan/regrowth",
+    "magi:zagan/vine_prison",
+    "magi:zagan/life_bloom"
+  ]
+}

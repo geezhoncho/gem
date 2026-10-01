@@ -1,0 +1,28 @@
+{
+  "element": "lightning",
+  "color": 4172277,
+  "max_level": 10,
+  "max_energy": 100,
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "base": 0.02,
+      "per_level": 0.004
+    },
+    {
+      "attribute": "irons_spellbooks:lightning_spell_power",
+      "operation": "multiply_base",
+      "base": 0.05,
+      "per_level": 0.02
+    }
+  ],
+  "abilities": [
+    "magi:lightning_spear",
+    "magi:chain_lightning",
+    "magi:thunder_cage",
+    "magi:bararaq_saiqa",
+    "magi:bararaq_inqerad_saiqa"
+  ],
+  "signature": "magi:lightning_dash"
+}

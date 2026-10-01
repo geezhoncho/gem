@@ -1,0 +1,31 @@
+{
+  "element": "fire",
+  "color": 16742936,
+  "max_level": 10,
+  "max_energy": 100,
+  "attributes": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "addition",
+      "base": 0.5,
+      "per_level": 0.25
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "multiply_base",
+      "base": 0.02,
+      "per_level": 0.004
+    },
+    {
+      "attribute": "irons_spellbooks:fire_spell_power",
+      "operation": "multiply_base",
+      "base": 0.05,
+      "per_level": 0.02
+    }
+  ],
+  "abilities": [
+    "magi:amon/flame_crescent",
+    "magi:amon/fire_dash",
+    "magi:amon/meteor_burst"
+  ]
+}

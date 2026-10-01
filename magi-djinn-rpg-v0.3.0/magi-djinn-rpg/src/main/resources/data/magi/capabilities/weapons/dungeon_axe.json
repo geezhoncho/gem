@@ -1,0 +1,15 @@
+{
+  "attributes": {
+    "one_hand": {
+      "armor_negation": 27.0,
+      "impact": 4.0,
+      "max_strikes": 1
+    },
+    "two_hand": {
+      "armor_negation": 27.0,
+      "impact": 4.25,
+      "max_strikes": 1
+    }
+  },
+  "type": "epicfight:axe"
+}
